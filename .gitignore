@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# dependencies yarn
+/.yarn
+
 # production
 /build
 
