@@ -3,6 +3,7 @@ import Homepage from './pages/homepage/homepage.component';
 import About from './pages/about/about.component';
 import { Switch, Route, Link } from 'react-router-dom';
 import ShopPage from './pages/shop/shop.component';
+import Header from './components/header/header.component';
 import './App.css';
 class App extends React.Component {
   constructor(props){
@@ -11,6 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         <Switch>
           <Route exact path='/'>
             <Homepage />
